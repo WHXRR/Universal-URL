@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "D:/1--------------------work/learn-nuxt3/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "D:/1--------------------work/learn-nuxt3/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "D:/1--------------------work/learn-nuxt3/src"
+      ],
+      "~/*": [
+        "D:/1--------------------work/learn-nuxt3/src/*"
+      ],
+      "@": [
+        "D:/1--------------------work/learn-nuxt3/src"
+      ],
+      "@/*": [
+        "D:/1--------------------work/learn-nuxt3/src/*"
+      ],
+      "~~": [
+        "D:/1--------------------work/learn-nuxt3"
+      ],
+      "~~/*": [
+        "D:/1--------------------work/learn-nuxt3/*"
+      ],
+      "@@": [
+        "D:/1--------------------work/learn-nuxt3"
+      ],
+      "@@/*": [
+        "D:/1--------------------work/learn-nuxt3/*"
+      ],
+      "assets": [
+        "D:/1--------------------work/learn-nuxt3/src/assets"
+      ],
+      "assets/*": [
+        "D:/1--------------------work/learn-nuxt3/src/assets/*"
+      ],
+      "public": [
+        "D:/1--------------------work/learn-nuxt3/src/public"
+      ]
+    }
+  },
+  "include": [
+    "D:/1--------------------work/learn-nuxt3/.nuxt/types/nitro-nuxt.d.ts",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../src/server/**/*"
+  ]
+}
