@@ -1,4 +1,4 @@
-const baseURL = import.meta.env.BASE_URL
+const baseURL = import.meta.env.VITE_ROUTER_BASE_URL
 export default defineNuxtConfig({
   app: {
     baseURL: baseURL,
