@@ -1,7 +1,7 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+const baseURL = import.meta.env.BASE_URL
 export default defineNuxtConfig({
   app: {
-    baseURL:'/Universal-URL/',
+    baseURL: baseURL,
     head: {
       charset: 'utf-16',
       viewport: 'width=500, initial-scale=1',
