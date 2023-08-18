@@ -19,7 +19,6 @@ const url = useURL();
 const keyword = useState("keyword");
 const { data: navData } = await useFetch(`${url}/api/getAllSites`, {
   method: "POST",
-  server: false,
   transform: (data) => data.data,
   query: {
     keyword,

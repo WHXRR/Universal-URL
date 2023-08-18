@@ -33,7 +33,7 @@ const submit = async () => {
   if (!isValidUrl(formData.siteUrl)) {
     return alert("请输入正确的网址");
   }
-  await useFetch(`${url}/api/addSite`, {
+  const { data } = await useFetch(`${url}/api/addSite`, {
     method: "POST",
     transform: (data) => data.data,
     body: formData,
